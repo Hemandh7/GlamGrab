@@ -1,9 +1,12 @@
 import React from 'react'
 import home from '../Styles/home.css'
+import { Footer } from '../Components/Footer'
+import Navbar from '../Components/Navbar'
 
 const Home = () => {
   return (
     <div className='parent'>
+      <Navbar/>
         <div className='banner'>
             <div>
             <h1>CHECK MODESENS BEFORE YOU BUY</h1>
@@ -16,7 +19,7 @@ const Home = () => {
             <div>
             <h1>Compare 500+ Stores In <span>One</span> Place</h1>
             <h4>ModeSens allows you to compare prices and availability across hundreds of stores and thousands of brands.</h4>
-            <p>TRY IT OUT</p>
+            <p> <u>TRY IT OUT</u></p>
             </div>
         </div>
         <div>
@@ -60,7 +63,7 @@ const Home = () => {
             <div>
             <h1>Locate Any Product In <span>One</span> Second</h1>
             <h4>Simply copy any product url and search it on ModeSens. Our patented technology helps you easily locate it on ModeSens and compare across 500+ partner stores.</h4>
-            <p>TRY IT OUT</p>
+            <p> <u>TRY IT OUT</u></p>
             </div>
         </div>
         <div>
@@ -189,21 +192,21 @@ const Home = () => {
       <div><div>
         <h1>Fashion-Forward Community</h1>
         <h4>You look amazing on us! Come on, join the ModeSens Fashion Community.</h4>
-        <p>MODESENS COMMUNITY</p>
-        <p>FASHION BLOGS</p>
+        <p><u>MODESENS COMMUNITY</u></p>
+        <p> <u>FASHION BLOGS</u></p>
         </div>
       </div>
     </div>
     <div className='sec8'>
         <h1>Built By Shoppers For Shoppers</h1>
         <div><h2>Our mission is to develop the future of shopping. You only need to know what you like. We’ll handle the rest.</h2></div>
-        <p>READ OUR STORY</p>
+        <p><u>READ OUR STORY</u></p>
     </div>
     <div className='sec9'>
         <div><p>You have style worth sharing. Invite friends to join ModeSens,Your Fashion Shopping Assistant, today! Once they sign up, you’ll both receive silver premium membership for three months.</p></div>
         <button>INVITE FRIEND</button>
     </div>
-
+    <Footer/>
     </div>
 )
 }

@@ -12,6 +12,7 @@
     height:70vh;
     padding:60px 0px;
     margin:auto;
+    
 }
 .banner>div{
    width:60%;
@@ -33,6 +34,7 @@
     margin: 10px;
     font-weight: bolder;
     border:none;
+    cursor: pointer;
 }
 .sec1{
     width:95%;
@@ -68,6 +70,7 @@ padding: 10px;
 }
 .sec1 p{
     color: red;
+    cursor: pointer;
 }
 .sec1 button{
     background:transparent;
@@ -77,6 +80,7 @@ padding: 10px;
     border:1px solid red; 
     display: flex; 
     gap: 10px;
+    cursor: pointer;
 }
 .sec1 button>div:nth-child(1){
 width:20%;
@@ -110,6 +114,7 @@ margin:auto;
 }
 .sec3img div>img{
     width:80%;
+    cursor: pointer;
 }
 .sec2{
     width:95%;
@@ -142,6 +147,7 @@ margin:auto;
 }
 .sec2>div:nth-child(1)>img{
     width:70%;
+    
 }
 .sec2 h1,h4{
     font-weight: lighter;
@@ -149,6 +155,7 @@ margin:auto;
 .sec2img{
     display: flex;
     gap:20px;
+    cursor: pointer;
 }
 .sec4{
     background-image:url("https://cdn.modesens.com/static/img/20220915-bg2.png");
@@ -175,9 +182,9 @@ margin:auto;
     margin: 10px;
     font-weight: bolder;
     border:none;
+    cursor: pointer;
 }
 .sec5{
-    
     width:95%;
     height:40vh;
     margin:auto;
@@ -186,7 +193,7 @@ margin:auto;
 .sec5>div{
     width:50%;
     height:100%;
-   
+    cursor: pointer;
 }
 .sec5>div:nth-child(1){
     background-image:url("https://cdn.modesens.com/banner/20220916Category-women-modesens.jpg");
@@ -217,12 +224,12 @@ margin:auto;
     font-weight: bolder;
 }
 .sec6{
-    
     width:95%;
     height:40vh;
     margin:auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
 }
 .sec6>div{
     height:100%;
@@ -280,9 +287,11 @@ margin:auto;
 .sec7>div>div>img{
     width:100%;
     border-radius: 50%;
+    cursor: pointer;
 }
 .sec2 p{
     color: red;
+    cursor: pointer;
 }
 .sec8{
     background-image:url("https://cdn.modesens.com/static/img/20220915-bg3.png");
@@ -306,6 +315,9 @@ margin:auto;
     width:70%;
     margin: auto;
 }
+.sec8>p{
+    cursor: pointer;
+}
 .sec9{
    width:95%;
    margin:50px 0px;
@@ -323,5 +335,6 @@ margin:auto;
     margin: 10px;
     font-weight: bolder;
     border:none;
+    cursor: pointer;
    
 }
