@@ -1,13 +1,13 @@
 import React from 'react'
 import home from '../Styles/home.css'
 import { Footer } from '../Components/Footer'
-import Navbar from '../Components/Navbar'
+import Slider from '../Components/Slider'
+
 
 const Home = () => {
   return (
     <div className='parent'>
-      <Navbar/>
-        <div className='banner'>
+      <div className='banner'>
             <div>
             <h1>CHECK MODESENS BEFORE YOU BUY</h1>
             <h1>Get three months of silver membership for you and your friend.</h1>
