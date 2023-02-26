@@ -27,7 +27,7 @@
     font-size: 70px;
     font-weight: lighter;
 }
-.banner>div>button{
+.banner>div button{
     background-color: rgb(241, 20, 20);
     color: white;
     padding:10px;
@@ -175,7 +175,7 @@ margin:auto;
 .sec4 h1:nth-child(2){
     font-size: 40px;
 }
-.sec4>button{
+.sec4 button{
     background-color: rgb(241, 20, 20);
     color: white;
     padding:10px;
@@ -284,7 +284,7 @@ margin:auto;
     height:70%;
     border-radius: 50%;
 }
-.sec7>div>div>img{
+.sec7>div>div img{
     width:100%;
     border-radius: 50%;
     cursor: pointer;
@@ -328,7 +328,7 @@ margin:auto;
     width:70%;
     margin: auto;
 }
-.sec9>button{
+.sec9 button{
     background-color: rgb(241, 20, 20);
     color: white;
     padding:10px;
@@ -338,3 +338,84 @@ margin:auto;
     cursor: pointer;
    
 }
+@media only screen and (max-width: 768px) {
+
+    .banner {
+    width: 99%;
+    height: 100%;
+    margin-bottom: 30px;
+    }
+    .banner>div {
+    width: 100%;
+    }
+    .banner>div>h1:nth-child(1) {
+    font-size: 40px;
+    
+    }
+    .sec1{
+        flex-direction: row;
+    }
+    .sec1>div:nth-child(1) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    }
+    .sec1>div:nth-child(1)>div {
+    width: 100%;
+    margin-top: 20px;
+    }
+    .sec1>div:nth-child(2) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    }
+    .sec1>div:nth-child(2)>img {
+    width: 100%;
+    }
+    .sec3 {
+        width: 99%;
+    margin: 50px 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    }
+    .sec3img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    }
+    .sec3img div>img {
+    width: 100%;
+    }
+    .sec2 {
+        width: 99%;
+    flex-direction: column;
+    margin-bottom: 30px;
+    }
+    .sec2>div:nth-child(2) {
+    width: 100%;
+    height: auto;
+    }
+    .sec2>div:nth-child(2)>div {
+    width: 100%;
+    padding: 5px;
+    }
+    .sec2>div:nth-child(1) {
+    width: 100%;
+    height: auto;
+    }
+    .sec2>div:nth-child(1)>img {
+    width: 100%;
+    }
+    .sec4{
+        height: auto;
+    }
+    .sec5>div {
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;
+    }
+    .sec5>div>div {
+    height: 40%;
+    }
+    }

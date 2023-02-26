@@ -43,5 +43,22 @@ h2{
   text-align: center;  
 }
 
-
+@media only screen and (max-width: 768px) {
+    .products-wrapper {
+      flex-wrap: wrap;
+    }
+    .products-wrapper>div:nth-child(1){
+      width:100%;
+    }
+    .product-container{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+  /* For screens with a maximum width of 576px */
+  @media only screen and (max-width: 576px) {
+    .product-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
 

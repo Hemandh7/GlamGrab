@@ -1,0 +1,64 @@
+
+.admin-container{
+  width:100%;
+  display:grid;
+  grid-template-columns: 60% 35%;
+  gap:20px;
+  margin:10px;
+
+}
+.admin-container>div:nth-child(2){
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+td>button{
+  background-color: blueviolet;
+  color: white;
+  margin:5px;
+}
+.admin-container>div:nth-child(2)>form{
+  width:90%;
+
+}
+
+.admin-container input[type='text'] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.admin-container button[type='submit'] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+td>img{
+  width:50%;
+  height:50%
+}
+.admin-container>div:nth-child(4){
+  text-align: center;
+}
+.admin-container>div:nth-child(4)>form{
+  width:90%;
+
+}
+

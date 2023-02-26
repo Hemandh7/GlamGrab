@@ -29,7 +29,7 @@ const Cart = () => {
   };
 
   const handleCheckout = (totalPrice, totalProducts) => {
-    if (userCheck != "") {
+    if (userCheck !== "") {
       const checkoutData = { price: totalPrice, quantity: totalProducts };
       localStorage.setItem("checkout", JSON.stringify(checkoutData));
       nav("/checkout");

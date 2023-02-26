@@ -3,6 +3,7 @@ import "../Styles/singleproduct.css";
 import { useParams } from "react-router-dom";
 import { Footer } from "../Components/Footer";
 import axios from "axios";
+import Swiper from "../Components/Swiper";
 
 const SingleProduct = () => {
   const { id } = useParams();
@@ -103,6 +104,7 @@ const SingleProduct = () => {
       </div>
       <div>
         <h2>You May Also Like</h2>
+        <Swiper/>
       </div>
       <Footer />
     </>
